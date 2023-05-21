@@ -15,7 +15,7 @@ h2 {
 
 h3 {
   margin-top: 10%;
-  color: #000000;
+  color: #fff;
   font-size: 100%;
 }
 
@@ -54,7 +54,7 @@ p {
   grid-template-columns: auto 1fr;
   align-items: center;
   padding: 10px;
-  box-shadow: #000000 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /*Para poner un logo y su texto*/
@@ -115,7 +115,7 @@ p {
   padding: 10px;
   width: 100%;
   max-height: 410px;
-  box-shadow: #000000 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Pilares */
@@ -129,7 +129,7 @@ p {
   margin-bottom: 5%;
   margin-left: 0.5%;
   margin-right: 0.5%;
-  box-shadow: #000000 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .pilar {
@@ -139,13 +139,13 @@ p {
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #eee;
-  box-shadow: #000000 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .pilar img {
   width: 90%;
   border-radius: 5%;
-  border: 5px solid #FFFFFF;
+  border: 5px solid #ffffff;
 }
 
 /* Media Query para una columna hasta los 768 se usa esto de aqui*/
@@ -154,13 +154,13 @@ p {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
   }
   .pilar {
     display: grid;
     align-items: center;
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
   }
   .pilar img {
     grid-column: 1;
@@ -192,9 +192,9 @@ p {
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #eee;
-  box-shadow: #000000 0px 0px 10px;
   margin: 2%;
   color: #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .sabias-que__title {
@@ -227,24 +227,18 @@ p {
   .sabias-que__image {
     width: 100%;
     grid-column: 1;
-    /* Imagen ocupa la primera columna */
     grid-row: 1/span 3;
-    /* desde la primera a la tercera*/
   }
   .sabias-que__title {
     font-size: 18px;
     grid-column: 1/span 3;
-    /* h3 ocupa la segunda columna */
     grid-row: 1;
-    /* h3 ocupa la primera fila */
   }
   .sabias-que__text {
     margin: 5px 0;
     text-align: right;
     grid-column: 2;
-    /* p y a ocupan la segunda columna */
     grid-row: 2;
-    /* p y a ocupan la segunda fila */
   }
 }
 /* Media Query para una columna desde 1130 se usa esto de aqui*/
@@ -252,15 +246,13 @@ p {
   .sabias-que__title {
     font-size: 18px;
     grid-column: 2;
-    /* h3 ocupa la segunda columna */
     grid-row: 1;
-    /* h3 ocupa la primera fila */
   }
 }
 /* Footer */
 .layout__footer {
   background-color: #79756e;
-  padding: 20px;
+  padding: 10px;
   color: #fff;
   display: grid;
   gap: 20px;
@@ -280,7 +272,7 @@ p {
   gap: 20px;
   background-color: #79756e;
   border-radius: 5%;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 5%;
   margin-left: 0.5%;
   margin-right: 0.5%;
@@ -297,20 +289,13 @@ p {
 .layout__footer-section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
   background-color: #79756e;
-  border-radius: 5%;
-  padding: 20px;
-  margin-bottom: 5%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
 }
 
 .layout__footer-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 5%;
-  padding: 20px;
 }
 
 /* Media Query para pantallas con un ancho mínimo de 768px */
