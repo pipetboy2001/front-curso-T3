@@ -1,0 +1,44 @@
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+h3 {
+  margin-top: 10%;
+  color: #000000;
+  font-size: 100%;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #000;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8901960784);
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
