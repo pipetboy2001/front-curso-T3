@@ -61,6 +61,26 @@ p {
   align-items: center;
 }
 
+.layout__logo img {
+  width: 40px;
+  height: 40px;
+}
+
+/* colocar el listado en horizontal*/
+.layout__nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  /* Alinear los botones a la derecha */
+}
+
+/* separar un poco*/
+.layout__nav li {
+  margin-left: 20px;
+}
+
 .layout__header {
   background-color: #fcba96;
   color: #fff;
@@ -127,7 +147,7 @@ p {
 .pilar img {
   width: 90%;
   border-radius: 5%;
-  border: 5px solid #ffffff;
+  border: 5px solid #FFFFFF;
 }
 
 /* Media Query para una columna hasta los 768 se usa esto de aqui*/
@@ -145,11 +165,22 @@ p {
     padding: 10px;
   }
   .pilar img {
-    width: 100%;
     grid-column: 1;
-    /* Imagen ocupa la primera columna */
     grid-row: 1/span 3;
-    /* desde la primera a la tercera*/
+  }
+  .pilar h3 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .pilar p {
+    text-align: right;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .pilar a {
+    text-align: right;
+    grid-column: 2;
+    grid-row: 3;
   }
 }
 /* Sabias que*/
