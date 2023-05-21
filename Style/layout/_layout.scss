@@ -162,13 +162,13 @@
     box-sizing: border-box;
     border: 1px solid #eee;
     margin: 2%;
-    color: #eee;
     box-shadow: $box-shadow;
 }
 .sabias-que__title {
     font-size: 30px;
     font-weight: bold;
     margin: $grid-gap;
+    color: $color-text-tertiary;
 }
 .sabias-que__image {
     width: 100%;
@@ -180,6 +180,7 @@
     font-size: 20px;
     font-weight: bold;
     margin: 20px;
+    color: $color-text;
 }
 
 /* en 768 cambia a 2 columnas 2 lineas*/
@@ -223,7 +224,7 @@
 
 /* Footer */
 .layout__footer {
-     background-color: $color-primary;
+    background-color: $color-primary;
     padding: $paddings;
     color: $color-text;
     display: grid;
@@ -268,6 +269,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 5%;
+    list-style: none; 
 }
 
 /* Media Query para pantallas con un ancho mínimo de 768px */

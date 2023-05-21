@@ -197,7 +197,6 @@ body {
   box-sizing: border-box;
   border: 1px solid #eee;
   margin: 2%;
-  color: #eee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -205,6 +204,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   margin: 20px;
+  color: #000000;
 }
 
 .sabias-que__image {
@@ -217,6 +217,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin: 20px;
+  color: #444444;
 }
 
 /* en 768 cambia a 2 columnas 2 lineas*/
@@ -300,6 +301,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 5%;
+  list-style: none;
 }
 
 /* Media Query para pantallas con un ancho mínimo de 768px */
