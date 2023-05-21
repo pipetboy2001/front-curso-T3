@@ -1,5 +1,12 @@
 @charset "UTF-8";
 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -34,11 +41,8 @@ p {
   margin: 0 auto;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  /* Definición de filas */
   grid-template-columns: 1fr;
-  /* Definición de columnas */
   grid-gap: 20px;
-  /* Espacio entre elementos del grid */
   display: grid;
 }
 
@@ -48,15 +52,14 @@ p {
   border-bottom: 1px solid #fff;
   display: grid;
   grid-template-columns: auto 1fr;
-  /* Definir 2 columnas */
   align-items: center;
   padding: 10px;
+  box-shadow: #000000 0px 0px 10px;
 }
 
 /*Para poner un logo y su texto*/
 .layout__logo {
   grid-column: 1;
-  /* Colocar el logo y el nombre en la primera columna */
   display: flex;
   align-items: center;
 }
@@ -66,14 +69,12 @@ p {
   height: 40px;
 }
 
-/* colocar el listado en horizontal*/
 .layout__nav ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   justify-content: flex-end;
-  /* Alinear los botones a la derecha */
 }
 
 /* separar un poco*/
@@ -95,11 +96,8 @@ p {
 /* Estilos base para las imágenes del carrusel */
 .img-carousel {
   width: 100%;
-  /* Ancho máximo del contenedor */
-  max-height: 400px;
-  /* Altura máxima deseada */
   object-fit: cover;
-  /* Ajusta la imagen sin deformarla */
+  max-height: 200px;
 }
 
 /* Media query para pantallas grandes */
@@ -286,6 +284,14 @@ p {
   margin-bottom: 5%;
   margin-left: 0.5%;
   margin-right: 0.5%;
+}
+
+.layout__footer-enlaces a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
 }
 
 .layout__footer-section {
