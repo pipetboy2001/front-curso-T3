@@ -238,6 +238,7 @@
     display: grid;
     gap: $grid-gap;
     grid-template-columns: repeat(1, 1fr);
+    box-shadow: $box-shadow;
 }
 
 .layout__footer-hechopor {
@@ -245,6 +246,13 @@
     font-size: 20px;
     font-weight: bold;
     margin: $grid-gap;
+}
+
+.layout__footer-title{
+    text-align: center;
+    font-weight: bold;
+    margin: $grid-gap;
+    font-size: 4vh;
 }
 
 .layout__footer-enlaces {

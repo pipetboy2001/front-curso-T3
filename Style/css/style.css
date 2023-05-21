@@ -270,6 +270,7 @@ body {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(1, 1fr);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .layout__footer-hechopor {
@@ -277,6 +278,13 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin: 20px;
+}
+
+.layout__footer-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 4vh;
 }
 
 .layout__footer-enlaces {
